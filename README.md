@@ -1,0 +1,1 @@
+Complete documentation can be found on [Nette Addons Portal](http://addons.nette.org)

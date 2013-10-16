@@ -1,0 +1,26 @@
+{
+        "name": "lukaj/nette-param-validator",
+        "type": "library",
+        "description": "Casting and validating parameters of presenters in Nette Framework",
+        "keywords": ["nette", "casting", "validation", "parameter"],
+        "license": ["LGPL-3.0"],
+        "authors": [
+                {
+                        "name": "Lukas Mazur"
+                }
+        ],
+        "require": {
+                "nette/nette": "@dev"
+        },
+        "require-dev": {
+                "nette/tester": "@dev"
+        },
+        "autoload": {
+                "psr-0": {
+                        "Lukaj\\ParamValidator": "src/"
+                },
+                "classmap": [
+                        "src/Lukaj/ParamValidator/exceptions.php"
+                ]
+        }
+}
